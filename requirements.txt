@@ -6,3 +6,4 @@ gdown
 einops
 omegaconf
 safetensors
+huggingface_hub
