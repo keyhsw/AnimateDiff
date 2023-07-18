@@ -40,22 +40,22 @@ download(model_repo='houshaowei/AnimateDiff', model_name=['mm_sd_v15.ckpt','mm_s
 # os.system('bash download_bashscripts/8-GhibliBackground.sh')
 
 
-def list_files(directory):
-    for root, _, files in os.walk(directory):
-        for file in files:
-            file_path = os.path.join(root, file)
-            print(file_path)
+# def list_files(directory):
+#     for root, _, files in os.walk(directory):
+#         for file in files:
+#             file_path = os.path.join(root, file)
+#             print(file_path)
 
-# 调用函数并传入目标目录的路径
-print("search /home/xlab-app-center/models/Motion_Module/")
-list_files('/home/xlab-app-center/models/Motion_Module/')
+# # 调用函数并传入目标目录的路径
+# print("search /home/xlab-app-center/models/Motion_Module/")
+# list_files('/home/xlab-app-center/models/Motion_Module/')
 
-directory_path = "/home/xlab-app-center/models/DreamBooth_LoRA/"
-print("search /home/xlab-app-center/models/DreamBooth_LoRA/")
-list_files(directory_path)
+# directory_path = "/home/xlab-app-center/models/DreamBooth_LoRA/"
+# print("search /home/xlab-app-center/models/DreamBooth_LoRA/")
+# list_files(directory_path)
 
-print("search /home/xlab-app-center/models/StableDiffusion/stable-diffusion-v1-5")
-list_files('/home/xlab-app-center/models/StableDiffusion/stable-diffusion-v1-5')
+# print("search /home/xlab-app-center/models/StableDiffusion/stable-diffusion-v1-5")
+# list_files('/home/xlab-app-center/models/StableDiffusion/stable-diffusion-v1-5')
 
 
 sample_idx     = 0
