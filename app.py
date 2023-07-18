@@ -22,6 +22,7 @@ from animatediff.utils.convert_from_ckpt import convert_ldm_unet_checkpoint, con
 from animatediff.utils.convert_lora_safetensor_to_diffusers import convert_lora
 
 from openxlab.model import download
+from huggingface_hub import snapshot_download
 
 # 下载权重
 # download(model_repo='houshaowei/AnimateDiff', model_name=['mm_sd_v15.ckpt','mm_sd_v14.ckpt'], output='/home/xlab-app-center/models/Motion_Module/')
