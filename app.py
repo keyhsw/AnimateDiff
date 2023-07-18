@@ -21,6 +21,10 @@ from animatediff.utils.util import save_videos_grid
 from animatediff.utils.convert_from_ckpt import convert_ldm_unet_checkpoint, convert_ldm_clip_checkpoint, convert_ldm_vae_checkpoint
 from animatediff.utils.convert_lora_safetensor_to_diffusers import convert_lora
 
+from openxlab.model import download
+
+# 下载权重
+download(model_repo='houshaowei/AnimateDiff', model_name=['mm_sd_v15.ckpt','mm_sd_v14.ckpt'], output='/home/xlab-app-center/models/Motion_Module/')
 
 sample_idx     = 0
 scheduler_dict = {
