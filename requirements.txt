@@ -8,3 +8,4 @@ omegaconf
 safetensors
 huggingface_hub
 imageio[ffmpeg]
+imageio[pyav]
