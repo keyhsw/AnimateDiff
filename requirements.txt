@@ -7,3 +7,4 @@ einops
 omegaconf
 safetensors
 huggingface_hub
+imageio[ffmpeg]
