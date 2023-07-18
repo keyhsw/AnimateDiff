@@ -30,13 +30,13 @@ from openxlab.model import download
 # snapshot_download(repo_id="runwayml/stable-diffusion-v1-5", local_dir="models/StableDiffusion/stable-diffusion-v1-5", resume_download=True)
 
 # os.system('bash download_bashscripts/1-ToonYou.sh')
-os.system('bash download_bashscripts/2-Lyriel.sh')
-os.system('bash download_bashscripts/3-RcnzCartoon.sh')
-# os.system('bash download_bashscripts/4-MajicMix.sh')
-# os.system('bash download_bashscripts/5-RealisticVision.sh')
-# os.system('bash download_bashscripts/6-Tusun.sh')
-# os.system('bash download_bashscripts/7-FilmVelvia.sh')
-# os.system('bash download_bashscripts/8-GhibliBackground.sh')
+# os.system('bash download_bashscripts/2-Lyriel.sh')
+# os.system('bash download_bashscripts/3-RcnzCartoon.sh')
+os.system('bash download_bashscripts/4-MajicMix.sh')
+os.system('bash download_bashscripts/5-RealisticVision.sh')
+os.system('bash download_bashscripts/6-Tusun.sh')
+os.system('bash download_bashscripts/7-FilmVelvia.sh')
+os.system('bash download_bashscripts/8-GhibliBackground.sh')
 
 
 def list_files(directory):
