@@ -25,7 +25,7 @@ from openxlab.model import download
 from huggingface_hub import snapshot_download
 
 # 下载权重
-download(model_repo='houshaowei/AnimateDiff', model_name=['mm_sd_v15.ckpt','mm_sd_v14.ckpt'], output='/home/xlab-app-center/models/Motion_Module/', overwrite=True)
+# download(model_repo='houshaowei/AnimateDiff', model_name=['mm_sd_v15.ckpt','mm_sd_v14.ckpt'], output='/home/xlab-app-center/models/Motion_Module/', overwrite=True)
 
 # 下载sd-v1-5至models/StableDiffusion/
 # snapshot_download(repo_id="runwayml/stable-diffusion-v1-5", local_dir="models/StableDiffusion/stable-diffusion-v1-5", resume_download=True)
@@ -38,24 +38,6 @@ download(model_repo='houshaowei/AnimateDiff', model_name=['mm_sd_v15.ckpt','mm_s
 # os.system('bash download_bashscripts/6-Tusun.sh')
 # os.system('bash download_bashscripts/7-FilmVelvia.sh')
 # os.system('bash download_bashscripts/8-GhibliBackground.sh')
-
-
-def list_files(directory):
-    for root, _, files in os.walk(directory):
-        for file in files:
-            file_path = os.path.join(root, file)
-            print(file_path)
-
-# # 调用函数并传入目标目录的路径
-print("search /home/xlab-app-center/models/Motion_Module/")
-list_files('/home/xlab-app-center/models/Motion_Module/')
-
-# directory_path = "/home/xlab-app-center/models/DreamBooth_LoRA/"
-# print("search /home/xlab-app-center/models/DreamBooth_LoRA/")
-# list_files(directory_path)
-
-# print("search /home/xlab-app-center/models/StableDiffusion/stable-diffusion-v1-5")
-# list_files('/home/xlab-app-center/models/StableDiffusion/stable-diffusion-v1-5')
 
 
 sample_idx     = 0
