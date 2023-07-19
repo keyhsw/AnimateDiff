@@ -243,23 +243,23 @@ def ui():
                     "Jane Eyre with headphones, natural skin texture,4mm,k textures, soft cinematic light, adobe lightroom, photolab, hdr, intricate, elegant, highly detailed, sharp focus, cinematic look, soothing tones, insane details, intricate details, hyperdetailed, low contrast, soft cinematic light, dim colors, exposure blend, hdr, faded",
                     "deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, mutated hands and fingers, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
                     512, 512, "5787693165787021000"
-                ],
-                # 4-MajicMix
-                [
-                    "majicmixRealistic_v5Preview.safetensors", 
-                    "mm_sd_v14.ckpt", 
-                    "1girl, offshoulder, light smile, shiny skin best quality, masterpiece, photorealistic",
-                    "bad hand, worst quality, low quality, normal quality, lowres, bad anatomy, bad hands, watermark, moles",
-                    512, 512, "237261210588276480"
-                ],
-                # 5-RealisticVision
-                [
-                    "realisticVisionV20_v20.safetensors", 
-                    "mm_sd_v15.ckpt", 
-                    "photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3",
-                    "blur, haze, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation",
-                    512, 512, "1490157606650685400"
                 ]
+                # # 4-MajicMix
+                # [
+                #     "majicmixRealistic_v5Preview.safetensors", 
+                #     "mm_sd_v14.ckpt", 
+                #     "1girl, offshoulder, light smile, shiny skin best quality, masterpiece, photorealistic",
+                #     "bad hand, worst quality, low quality, normal quality, lowres, bad anatomy, bad hands, watermark, moles",
+                #     512, 512, "237261210588276480"
+                # ],
+                # # 5-RealisticVision
+                # [
+                #     "realisticVisionV20_v20.safetensors", 
+                #     "mm_sd_v15.ckpt", 
+                #     "photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3",
+                #     "blur, haze, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation",
+                #     512, 512, "1490157606650685400"
+                # ]
             ],
             inputs=[
                 base_model_dropdown, 
